@@ -1,18 +1,14 @@
 package com.example.onlineexamapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import static com.example.onlineexamapp.R.drawable.login_bg;
-import static com.example.onlineexamapp.R.drawable.signup_bg;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -60,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                background.setImageResource(signup_bg);
+                background.setImageResource(R.drawable.signup_bg);
                 login_txt.setTextColor(Color.GRAY);
                 signup_txt.setTextColor(Color.BLACK);
                 login_layout.setVisibility(View.GONE);
@@ -76,8 +72,7 @@ public class LoginActivity extends AppCompatActivity {
         login_txt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                background.setImageResource(login_bg);
+                background.setImageResource(R.drawable.login_bg);
                 signup_txt.setTextColor(Color.GRAY);
                 login_txt.setTextColor(Color.BLACK);
                 login_layout.setVisibility(View.VISIBLE);
