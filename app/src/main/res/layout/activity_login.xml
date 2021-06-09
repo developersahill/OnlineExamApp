@@ -80,7 +80,7 @@
                 android:layout_width="@dimen/_400sdp"
                 android:layout_below="@+id/signup"
                     android:id="@+id/signup_layout"
-                    android:visibility="visible"
+                    android:visibility="gone"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -160,7 +160,7 @@
                     android:padding="@dimen/_7sdp"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20sdp"
-                    android:layout_below="@id/signup_layout"
+                    android:layout_below="@id/login_layout"
                     android:layout_marginTop="@dimen/_20sdp"
                     android:textAlignment="center"
                     />
@@ -169,7 +169,6 @@
                     android:layout_width="@dimen/_400sdp"
                     android:layout_below="@+id/signup"
                     android:id="@+id/login_layout"
-                    android:visibility="gone"
                     android:layout_marginTop="@dimen/_8sdp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">

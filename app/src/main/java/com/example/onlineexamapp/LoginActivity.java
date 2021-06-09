@@ -77,7 +77,6 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
                 background.setImageResource(login_bg);
                 signup_txt.setTextColor(Color.GRAY);
                 login_txt.setTextColor(Color.BLACK);
